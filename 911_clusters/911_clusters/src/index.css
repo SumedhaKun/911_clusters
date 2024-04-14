@@ -5,11 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  padding: 20px;
-  border: 3px blue dashed;
-  width: 60%;
-  margin: auto;
+  
 }
 
 .btn {
@@ -45,4 +41,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  border: 3px blue dashed;
+  width: 60%;
+  margin: auto;
 }

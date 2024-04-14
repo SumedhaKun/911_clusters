@@ -2,15 +2,20 @@ import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import FileUpload from './FileUpload';
+//import ImageComponent from './Graph';
 
 function App() {
   const [images, setImages] = useState([]);
   return (
     <div className="App">
       <div className='container'>
-        <h1 className='text-center'>Drag and Drop Test</h1>
+        <h1 className='text-center'>Case Files Upload</h1>
         <FileUpload/>
       </div>
+      {/* <div className='container'>
+        <h1 className='text-center'>Clustered Cases</h1>
+        
+      </div> */}
       
       {/* <header className="App-header">
         
