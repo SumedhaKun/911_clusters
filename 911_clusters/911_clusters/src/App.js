@@ -8,14 +8,10 @@ function App() {
   const [images, setImages] = useState([]);
   return (
     <div className="App">
-      <div className='container'>
+      <div className='overall'>
         <h1 className='text-center'>Case Files Upload</h1>
         <FileUpload/>
       </div>
-      {/* <div className='container'>
-        <h1 className='text-center'>Clustered Cases</h1>
-        
-      </div> */}
       
       {/* <header className="App-header">
         
