@@ -27,6 +27,21 @@ body {
   background-color: blue;
   color: aliceblue;
 }
+.bttn {
+  border: none;
+  text-align: center;
+  background-color: rgb(218, 216, 216);
+  height: 50px;
+  border-radius: 12px;
+  color: black;
+  font-weight: bold;
+  transition-duration: 0.6s;
+}
+
+.bttn:hover {
+  background-color: blue;
+  color: aliceblue;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
